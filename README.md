@@ -6,8 +6,8 @@ The smart contract for NFT has three functionalities.
 * **Transfer:** The transfer instruction allows tokens or NFTs to be sent from one account to another.
 * **Burn:** The burn instruction is used to destroy tokens or NFTs, removing them from circulation.
 ### Build & Deployment
-> Build the contract: Navigate to program directory ```cargo build-sbf ```
-> Set your config file to connect to devnet: ```solana config set --url devnet```
-> Build and Deploy the Contract: ```Build and Deploy the Contract```.Save the **programID**
-> Download Dependencies: Navigate to program_client directory ```yarn install``` and also ```yarn add @solana/spl-token```
-> Run app.ts: ```npx ts-node app.ts <YOUR_PROGRAM_ID>``` 
+> Build the contract: Navigate to program directory ```cargo build-sbf ```.
+> Set your config file to connect to devnet: ```solana config set --url devnet```.
+> Build and Deploy the Contract: ```Build and Deploy the Contract```.Save the **programID**.
+> Download Dependencies: Navigate to program_client directory ```yarn install``` and also ```yarn add @solana/spl-token```.
+> Run app.ts: ```npx ts-node app.ts <YOUR_PROGRAM_ID>```.
